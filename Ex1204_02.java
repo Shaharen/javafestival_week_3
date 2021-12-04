@@ -6,13 +6,13 @@ import java.util.Scanner;
 public class Ex1204_02 {
 
 	public static void main(String[] args) {
-		// ¸Ö¸®¶Ù±â ( ÇÇº¸³ªÄ¡ )
-		// ÇÑ¹ø¿¡ 1Ä­ ¶Ç´Â 2Ä­
-		// ¸Ö¸®¶Ù±â¿¡ »ç¿ëµÉ Ä­ÀÇ ¼ö¿¡ µû¶ó
-		// ³¡¿¡ µµ´ŞÇÏ´Â ¹æ¹ıÀÌ ¸î°¡ÁöÀÎÁö Ãâ·ÂÇÏ´Â ¸Ş¼Òµå
+		// ë©€ë¦¬ë›°ê¸° ( í”¼ë³´ë‚˜ì¹˜ )
+		// í•œë²ˆì— 1ì¹¸ ë˜ëŠ” 2ì¹¸
+		// ë©€ë¦¬ë›°ê¸°ì— ì‚¬ìš©ë  ì¹¸ì˜ ìˆ˜ì— ë”°ë¼
+		// ëì— ë„ë‹¬í•˜ëŠ” ë°©ë²•ì´ ëª‡ê°€ì§€ì¸ì§€ ì¶œë ¥í•˜ëŠ” ë©”ì†Œë“œ
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("ÀÌµ¿ÇÒ Ä­ÀÇ ¼ö >> ");
+		System.out.println("ì´ë™í•  ì¹¸ì˜ ìˆ˜ >> ");
 		int num = sc.nextInt();
 
 		jumpCase(num);
@@ -27,8 +27,6 @@ public class Ex1204_02 {
 			jump.add(jump.get(i) + jump.get(i + 1));
 		}
 		System.out.println(jump.get(num - 1));
-
 		return -1;
 	}
-
 }
